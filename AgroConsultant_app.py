@@ -4,7 +4,6 @@ import numpy as np
 import os
 import pickle
 import warnings
-import numpy.random.common
 
 
 st.set_page_config(page_title="AgroConsultant Application", page_icon="🌿", layout='centered', initial_sidebar_state="collapsed")
