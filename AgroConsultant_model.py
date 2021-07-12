@@ -145,7 +145,7 @@ def classification_metrics(model, conf_matrix):
     
 
 # Load Dataset
-df = pd.read_csv('Crop_recommendation.csv')
+df = pd.read_csv('AgroConsultant_data.csv')
 
 # Remove Outliers
 Q1 = df.quantile(0.25)
